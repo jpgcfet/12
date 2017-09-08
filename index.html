@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jhunjhunwala PG College</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- =======================================================
+        Theme Name: Jhunjhunwala PG College
+    ======================================================= -->
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Jhunjhunwala<span>PG College</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#feature">About Us</a></li>
+          <li><a href="#organisations">Organisations</a></li>
+          <li><a href="#courses">Events</a></li>
+          <li><a href="#pricing">Fees</a></li>
+          <li><a href="#" data-target="#login" data-toggle="modal">Sign in</a></li>
+          <li class="btn-trial"><a href="#footer">Sign Up</a></li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+    <!--/ Navigation bar-->
+    <!--Modal box-->
+    <div class="modal fade" id="login" role="dialog">
+      <div class="modal-dialog modal-sm">
+      
+        <!-- Modal content no 1-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title text-center form-title">Login</h4>
+          </div>
+          <div class="modal-body padtrbl">
+
+            <div class="login-box-body">
+              <p class="login-box-msg">Sign in to start your session</p>
+              <div class="form-group">
+                <form name="" id="loginForm">
+                 <div class="form-group has-feedback"> <!----- username -------------->
+                      <input class="form-control" placeholder="Username"  id="loginid" type="text" autocomplete="off" /> 
+            <span style="display:none;font-weight:bold; position:absolute;color: red;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginid"></span><!---Alredy exists  ! -->
+                      <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                  </div>
+                  <div class="form-group has-feedback"><!----- password -------------->
+                      <input class="form-control" placeholder="Password" id="loginpsw" type="password" autocomplete="off" />
+            <span style="display:none;font-weight:bold; position:absolute;color: grey;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginpsw"></span><!---Alredy exists  ! -->
+                      <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                  </div>
+                  <div class="row">
+                      <div class="col-xs-12">
+                          <div class="checkbox icheck">
+                              <label>
+                                <input type="checkbox" id="loginrem" > Remember Me
+                              </label>
+                          </div>
+                      </div>
+                      <div class="col-xs-12">
+                          <button type="button" class="btn btn-green btn-block btn-flat" onclick="userlogin()">Sign In</button>
+                      </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!--/ Modal box-->
+    <!--Banner-->
+    <div class="banner">
+      <div class="bg-color">
+        <div class="container">
+          <div class="row">
+            <div class="banner-text text-center">
+              <div class="text-border">
+                <h2 class="text-dec">Trust & Quality</h2>
+              </div>
+              <div class="intro-para text-center quote">
+                <p class="big-text">Learning Today . . . Leading Tomorrow.</p>
+                <p class="small-text">Quest for perfection is always there in the heart of human beings.<br>Knowledge is vast and life is short.</p>
+                <a href="#." class="btn">Know JPGCFET</a>
+              </div>
+              <a href="#feature" class="mouse-hover"><div class="mouse"></div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ Banner-->
+    <!--Feature-->
+    <section id ="feature" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="header-section text-center">
+            <h2>Features</h2>
+            <p>The basic objective behind the establishment of this institution is to impart knowledge, efficiency and to make students a better citizens for tomorrow.</p>
+            <hr class="bottom-line">
+          </div>
+          <div class="feature-info">
+            <div class="fea">
+              <div class="col-md-4">
+                <div class="heading pull-right">
+                  <h4>Academics</h4>
+                  <p>At Jhunjhunwala Group of Institutes the academic structure, curriculum and pedagogy have been designed to break boundaries between different disciplines, bridge the gap between theory and practice, integrate learning and synchronize the classroom with the workplace. 
+</p>
+                </div>
+                <div class="fea-img pull-left">
+                  <i class="fa fa-graduation-cap"></i>
+                </div>
+              </div>
+            </div>
+            <div class="fea">
+              <div class="col-md-4">
+                <div class="heading pull-right">
+                  <h4>Innovative Surrounding</h4>
+                  <p>Most significantly, the education system has been crafted to promote the spirit of discovery, creativity, problem solving and innovation among students; and make learning an engaging and enjoyable experience.</p>
+                </div>
+                <div class="fea-img pull-left">
+                  <i class="fa fa-cog"></i>
+                </div>
+              </div>
+            </div>
+            <div class="fea">
+              <div class="col-md-4">
+                <div class="heading pull-right">
+                  <h4>Targets & Goals</h4>
+                  <p> The overarching objective is to develope knowledgeable, skilled, ethical and well rounded individuals, who are job ready from day one of passing out from the institute, and have the potential to lead their organizations to success in the future.</p>
+                </div>
+                <div class="fea-img pull-left">
+                  <i class="fa fa-bullseye"></i>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!--/ feature-->
+    <!--Organisations-->
+    <section id ="organisations" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">         
+              <div class="orga-stru">
+                <h3>25</h3>
+                <p>Acres of Campus</p>
+                <i class="fa fa-male"></i>
+              </div>  
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">         
+              <div class="orga-stru">
+                <h3>24</h3>
+                <p>Years of Edu. Experience</p>
+                <i class="fa fa-male"></i>
+              </div>  
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">         
+              <div class="orga-stru">
+                <h3>75310</h3>
+                <p>Alumni all over Globe</p>
+                <i class="fa fa-male"></i>
+              </div>  
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="detail-info">
+              <hgroup>
+                <h3 class="det-txt"> Is inclusive quality education Pattern</h3>
+                <h4 class="sm-txt">(Session begins 2017-18)</h4>
+              </hgroup>
+              <p class="det-p">Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Organisations-->
+    <!--Cta-->
+    <section id="cta-2">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+              <h2 class="text-center">Subscribe Now</h2>
+              <p class="cta-2-txt">Sign up for our free weekly software design courses, we’ll send them right to your inbox.</p>
+             <div class="cta-2-form text-center">
+              <form action="#" method="post" id="workshop-newsletter-form">
+                    <input name="" placeholder="Enter Your Email Address" type="email">
+                    <input class="cta-2-form-submit-btn" value="Subscribe" type="submit">
+                </form>
+             </div>   
+            </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Cta-->
+    <!--work-shop-->
+    <section id="work-shop" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="header-section text-center">
+            <h2>Jhunjhunwala Workshops</h2>
+            <p>We Provide a best in best training session to our students, <br>A knowledgeable workshops for everyone.</p>
+            <hr class="bottom-line">
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="service-box text-center">
+              <div class="icon-box">
+                <i class="fa fa-info color-green"></i>
+              </div>
+              <div class="icon-text">
+                <h4 class="ser-text">BCA Workshop</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="service-box text-center">
+              <div class="icon-box">
+                <i class="fa fa-cog color-green"></i>
+              </div>
+              <div class="icon-text">
+                <h4 class="ser-text">ITI Workshop</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="service-box text-center">
+              <div class="icon-box">
+                <i class="fa fa-spinner color-green"></i>
+              </div>
+              <div class="icon-text">
+                <h4 class="ser-text">Placement Workshop</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ work-shop-->
+    <!--Faculity member-->
+    <section id="faculity-member" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="header-section text-center">
+            <h2>Meet Our Leading Member</h2>
+            <p>The Hard and Effective<br> Work From Our Head Of Departments To  Build Up this Institute .</p>
+            <hr class="bottom-line">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="pm-staff-profile-container" >
+              <div class="pm-staff-profile-image-wrapper text-center">
+                <div class="pm-staff-profile-image">
+                  <img src="img/owner.jpg" alt="" class="img-thumbnail img-circle" />
+                </div>   
+              </div>                                
+              <div class="pm-staff-profile-details text-center">  
+                <p class="pm-staff-profile-name">L.K. Jhunjhunwala</p>
+                <p class="pm-staff-profile-title">Chairman</p>
+                
+                <p class="pm-staff-profile-bio">Sincere attempts are made in our Polytechnic, making every effort towards guiding our student in these important aspects.Students are trained in various spheres to face real life situations making them confident individuals, ready to jump into turbulent waters of the wide world outside and swim against the challenges successfully.   </p>
+              </div>     
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="pm-staff-profile-container" >
+              <div class="pm-staff-profile-image-wrapper text-center">
+                <div class="pm-staff-profile-image">
+                  <img src="img/director.png" alt="" class="img-thumbnail img-circle" />
+                </div>   
+              </div>                                
+              <div class="pm-staff-profile-details text-center">  
+                <p class="pm-staff-profile-name">Girijesh Tripathi</p>
+                <p class="pm-staff-profile-title">Director</p>
+                
+                <p class="pm-staff-profile-bio">We regularly invite the leaders and motivators of life and encourage the students to share time and space with them .I wish good luck to all the candidates success and look forward to a great time with them in JPGFET Campus. </p>
+              </div>     
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="pm-staff-profile-container" >
+              <div class="pm-staff-profile-image-wrapper text-center">
+                <div class="pm-staff-profile-image">
+                    <img src="img/coordinator.jpg" alt="" class="img-thumbnail img-circle" />
+                </div>   
+              </div>                                
+              <div class="pm-staff-profile-details text-center">  
+                <p class="pm-staff-profile-name">A.K.Dixit</p>
+                <p class="pm-staff-profile-title">Co-ordinator</p>
+                
+                <p class="pm-staff-profile-bio">"The Institution is what it is today because of students as much as anything else. We hope that you are as excited about your future at the JPGCFET as we are. We look forward towards being together soon until then best of luck for all you plans." </p>
+              </div>     
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Faculity member-->
+    <!--Testimonial-->
+    <section id="testimonial" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="header-section text-center">
+            <h2 class="white">See What Our PassOut Student Are Saying?</h2>
+            <p class="white">A Feedback,<br> From our Passout Students.</p>
+            <hr class="bottom-line bg-white">
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="text-comment">
+              <p class="text-par">"Good Education and Supportive Teachers"</p>
+              <p class="text-name">Shubham  - BCA-2016 Batch</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="text-comment">
+              <p class="text-par">"WonderFul Surrounding and Supportive Staff"</p>
+              <p class="text-name">Anubhav Tripathi - Polytechnic- 2016 Batch</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Testimonial-->
+    <!--Courses-->
+    <section id ="courses" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="header-section text-center">
+            <h2>Our Events</h2>
+            <p>Diverse Culture Events With Different Skills and Growth Based Programs .</p>
+            <hr class="bottom-line">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 padleft-right">
+            <figure class="imghvr-fold-up">
+              <img src="img/course01.jpg" class="img-responsive">
+              <figcaption>
+                  <h3>IT Quiz</h3>
+                  <p>An Inter-college Quiz based on Current and Aware Technology .</p>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-6 padleft-right">
+            <figure class="imghvr-fold-up">
+              <img src="img/course02.jpg" class="img-responsive">
+              <figcaption>
+                  <h3>Electra-A Begining</h3>
+                  <p>A District Level Program in which Different innovation and Models based on Current problems and Issues .</p>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-6 padleft-right">
+            <figure class="imghvr-fold-up">
+              <img src="img/course03.jpg" class="img-responsive">
+              <figcaption>
+                  <h3>Fresher Party</h3>
+                  <p>A Memorable Party For Every Fresher .</p>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-6 padleft-right">
+            <figure class="imghvr-fold-up">
+              <img src="img/course04.jpg" class="img-responsive">
+              <figcaption>
+                  <h3>Mr & Mrs Faizabad</h3>
+                  <p>An Opportunity For Every Youngster To Repersent His/Her Talent and a Live Performance  .</p>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-6 padleft-right">
+            <figure class="imghvr-fold-up">
+              <img src="img/course05.jpg" class="img-responsive">
+              <figcaption>
+                  <h3>Sports Day</h3>
+                  <p>An Inter-Degree Sports Day Event For Different Physical Activities.</p>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-6 padleft-right">
+            <figure class="imghvr-fold-up">
+              <img src="img/course06.jpg" class="img-responsive">
+              <figcaption>
+                  <h3>Ferwell To Seniors</h3>
+                  <p>A Memorable Last Day For Seniors Of College Life .</p>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Events-->
+    <!--Courses-->
+    <section id ="pricing" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="header-section text-center">
+            <h2>Our Courses & Fees</h2>
+            <p>Negotiable Fees Structure For Every Student with Yearly Scholorship.</p>
+            <hr class="bottom-line">
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="price-table">
+              <!-- Course  -->
+              <div class="pricing-head">
+                <h4>B.C.A</h4>
+                <span class="fa fa-inr curency"></span> <span class="amount">12500/Sem</span> 
+              </div>
+          
+              <!-- Fees Detail -->
+              <div class="price-in mart-15">
+                <a href="#" class="btn btn-bg green btn-block">Read More</a> 
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="price-table">
+              <!-- Fees  -->
+              <div class="pricing-head">
+                <h4>Polytechnic</h4>
+                <span class="fa fa-inr curency"></span> <span class="amount">35000/Sem</span> 
+              </div>
+          
+              <!-- Fees Detail -->
+              <div class="price-in mart-15">
+                <a href="#" class="btn btn-bg yellow btn-block">Read More</a> 
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="price-table">
+              <!-- Fees  -->
+              <div class="pricing-head">
+                <h4>ITI</h4>
+                <span class="fa fa-inr curency"></span> <span class="amount">32500/Sem</span> 
+              </div>
+          
+              <!-- Fees Detail -->
+              <div class="price-in mart-15">
+                <a href="#" class="btn btn-bg red btn-block">Read More</a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Fees courses-->
+    <!--Contact-->
+    <section id ="contact" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="header-section text-center">
+            <h2>Contact Us</h2>
+            <p>We Provide World Class Education, surrounding, culture and Innovation .</p>
+            <hr class="bottom-line">
+          </div>
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+              <div class="col-md-6 col-sm-6 col-xs-12 left">
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control form" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                </div>
+              </div>
+              
+              <div class="col-md-6 col-sm-6 col-xs-12 right">
+                <div class="form-group">
+                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validation"></div>
+                </div>
+              </div>
+              
+              <div class="col-xs-12">
+                <!-- Button -->
+                <button type="submit" id="submit" name="submit" class="form contact-form-button light-form-button oswald light">SEND EMAIL</button>
+              </div>
+          </form>
+          
+        </div>
+      </div>
+    </section>
+    <!--/ Contact-->
+    <!--Footer-->
+    <footer id="footer" class="footer">
+      <div class="container text-center">
+    
+      <h3>Start Your Education Here!</h3>
+    
+      <form class="mc-trial row">
+        <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
+          <div class=" controls">
+            <input name="name" placeholder="Enter Your Name" class="form-control" type="text">
+          </div>
+        </div><!-- End email input -->
+        <div class="form-group col-md-3 col-sm-4">
+          <div class=" controls">
+            <input name="EMAIL" placeholder="Enter Your email" class="form-control" type="email">
+          </div>
+        </div><!-- End email input -->
+        <div class="col-md-2 col-sm-4">
+          <p>
+            <button name="submit" type="submit" class="btn btn-block btn-submit">
+            Submit <i class="fa fa-arrow-right"></i></button>
+          </p>
+        </div>
+      </form><!-- End newsletter-form -->
+      <ul class="social-links">
+        <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
+        <li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
+        <li><a href="#link"><i class="fa fa-google-plus fa-fw"></i></a></li>
+        <li><a href="#link"><i class="fa fa-dribbble fa-fw"></i></a></li>
+        <li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
+      </ul>
+        ©2017 JPGCFET. All rights reserved
+        <div class="credits">
+            
+            Designed by <a href="#">Akashdeep,Anoop</a>
+        </div>
+      </div>
+    </footer>
+    <!--/ Footer-->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="contactform/contactform.js"></script>
+    
+  </body>
+</html>
